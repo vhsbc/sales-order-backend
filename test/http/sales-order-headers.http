@@ -1,0 +1,18 @@
+GET http://localhost:4004/odata/v4/main/SalesOrderHeaders
+Content-Type: application/json
+
+###
+
+POST http://localhost:4004/odata/v4/main/SalesOrderHeaders
+Content-Type: application/json
+
+{ }
+
+###
+
+PUT http://localhost:4004/odata/v4/main/SalesOrderHeaders('7188eac9-ba99-45a3-8fab-97f13b0ce74b')
+Content-Type: application/json
+
+{ 
+    "customerName": "Victor Hugo"
+}
