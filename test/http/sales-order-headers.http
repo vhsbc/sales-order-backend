@@ -16,3 +16,17 @@ Content-Type: application/json
 { 
     "customerName": "Victor Hugo"
 }
+
+###
+
+PATCH http://localhost:4004/odata/v4/main/SalesOrderHeaders('7188eac9-ba99-45a3-8fab-97f13b0ce74b')
+Content-Type: application/json
+
+{ 
+    "customerName": "Victor Hugo"
+}
+
+###
+
+DELETE http://localhost:4004/odata/v4/main/SalesOrderHeaders('14996348-32f0-4766-b522-0e9c76535fde')
+Content-Type: application/json
