@@ -247,3 +247,19 @@ Learn more at https://cap.cloud.sap/docs/get-started/.
 		essa pasta e os dados mockados são adicionados via comando
 		comand line: cds add data --records 10 --out test/data
 		ou mais simples: cds add data -n 10 --out test/data
+
+15. Typescript
+	Adicionar a dependência Typescript com os comandos
+	yarn add -D tsx
+	yarn add -D @cap-js/cds-typer
+	yarn add -D typescript
+	yarn add -D @types/node
+	alterar o script dev para cds-tsx watch
+
+16. tsconfig.json
+	yarn tsc --init
+	esse comando gera o arquivo tsconfig.json
+	esse arquivo guarda as configurações e comportamentos do TS dentro da aplicação
+	importante que ele pode ser usado como template para outras aplicações
+	
+	16.1. 
